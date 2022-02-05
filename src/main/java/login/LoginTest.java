@@ -20,8 +20,6 @@ public class LoginTest {
 		String username = "SomeUser_name";
 		String password = "TopSecret1234!";
 
-//		String username = "dummytree";
-//		String password = "test1";
 		driver.findElement(By.xpath("//input[@placeholder='Enter Username']")).sendKeys(username);
 		driver.findElement(By.xpath("//input[@placeholder='password']")).sendKeys(password);
 		driver.findElement(By.tagName("button")).click();
